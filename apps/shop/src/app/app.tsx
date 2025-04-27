@@ -1,5 +1,11 @@
+import ProductDetail from '../components/ProductDetail';
+
 export function App() {
-  return <div>Shop</div>;
+  return (
+    <div className="h-[70vh]">
+      <ProductDetail />
+    </div>
+  );
 }
 
 export default App;
