@@ -1,5 +1,7 @@
+import { PrimaryButton } from 'shared/src/lib/shared-button';
+
 export function App() {
-  return <div>Cart</div>;
+  return <PrimaryButton>This is shared button</PrimaryButton>;
 }
 
 export default App;

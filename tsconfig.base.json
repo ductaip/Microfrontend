@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@mfe/shared": ["shared/src/index.ts"],
       "cart/Module": ["apps/cart/src/remote-entry.ts"],
       "shop/Module": ["apps/shop/src/remote-entry.ts"]
     }
