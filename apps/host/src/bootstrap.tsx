@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-
+import ErrorBoundary from 'shared/src/components/ErrorBoundary';
 import App from './app/app';
 
 const root = ReactDOM.createRoot(
@@ -9,8 +9,10 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <StrictMode>
+    {/* <ErrorBoundary> */}
     <BrowserRouter>
       <App />
     </BrowserRouter>
+    {/* </ErrorBoundary> */}
   </StrictMode>
 );

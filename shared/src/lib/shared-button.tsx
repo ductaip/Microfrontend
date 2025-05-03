@@ -3,6 +3,9 @@ export function PrimaryButton(
   props: React.ButtonHTMLAttributes<HTMLButtonElement>
 ) {
   return (
-    <button className="px-4 py-2 rounded bg-blue-600 text-white" {...props} />
+    <button
+      className="px-4 py-2 rounded bg-blue-600 text-white mt-4"
+      {...props}
+    />
   );
 }
